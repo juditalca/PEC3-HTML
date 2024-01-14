@@ -11,8 +11,13 @@
   <include src="src/header.html"></include>
   <body>
     <div class="presentacion">
-      <figure class="imgpres1">  
-        <img class="clip-svgPres" src="img/presentacion1.png" alt="Ragnar">
+      <figure class="imgpres1">
+        <img class="clip-svgPres"
+          srcset="img/presentacion1_responsive.webp 250w, img/presentacion1.webp 400w"
+          sizes="(max-width: 799px) 250px,
+                 400px"
+          src="img/presentacion1.webp"
+          alt="Ragnar" />
         <figcaption>Imagen extraída de <a href="https://www.deviantart.com/omidh3ro/art/Vikings-Series-Folder-Icon-Pack-787477211">Deviant Art</a></figcaption>
       </figure>
       <p class="p1"><i><b>Vikingos</b></i>, (nombre original <i><b>Vikings</b></i>) es una serie histórica 
